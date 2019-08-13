@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>AK_Multiaddtocart</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add Multiple Products to cart</summary>
+    <description>Add Multiple Products to cart</description>
+    <notes>First Version</notes>
+    <authors><author><name>Anuj Kumar</name><user>Anuj</user><email>farshwal.anujkumar11@gmail.com</email></author></authors>
+    <date>2016-05-19</date>
+    <time>18:47:58</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="AK_Multiaddtocart.xml" hash="fd82e89986f482f2b7ea32db7a41c7df"/></dir></target><target name="magecommunity"><dir name="AK"><dir name="Multiaddtocart"><dir name="Helper"><file name="Data.php" hash="154f93be9fc2332b3805b57583402fe2"/></dir><dir name="controllers"><file name="CartController.php" hash="07c49622ccc72d3bfdadedff22bcdc94"/></dir><dir name="etc"><file name="config.xml" hash="6d4696aa1cb42aa164e1d5a57be460d2"/><file name="system.xml" hash="6414303ceacbb4f364a969d41f99b34d"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="multiaddtocart.xml" hash="700b1935cc1e80361f68709014f3411b"/></dir><dir name="template"><dir name="multiaddtocart"><dir name="catalog"><dir name="product"><file name="multilist.phtml" hash="b3688f0ba13f158bf0dc43f5eff8642f"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="multiaddtocart"><file name="multiaddtocart.js" hash="c58e24933089bb509eefc6da453c6dcb"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name/><channel>connect.magentocommerce.com/core</channel><min/><max/></package></required></dependencies>
+</package>
