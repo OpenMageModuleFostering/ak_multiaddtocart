@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/AK_Multiaddtocart",
+    "name": "OpenMageModuleFostering\/AK_Multiaddtocart",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Add Multiple Products to cart",
     "authors": [
-    {
-        "name": "Anuj Kumar",
-        "email": "farshwal.anujkumar11@gmail.com"
-    }
-],
+        {
+            "name": "Anuj Kumar",
+            "email": "farshwal.anujkumar11@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
